@@ -21,21 +21,6 @@ time.sleep(2)
 #clica na barra de pesquisa
 pyautogui.click(320,50)
 
-"""
-        links das aulas   
-        linguagem e programação https://classroom.google.com/c/MjY3MTE5NjM5MDQ3
-        web https://classroom.google.com/c/MjY1MTE1NTYxODI1
-        fund e suporte https://classroom.google.com/c/MjY1MDk5MzIyMzA3
-        sociologia https://classroom.google.com/c/MjY1MDk5ODI4NjI4
-        geografia https://classroom.google.com/c/MjU0NDY3NDU2NzM5
-        historia https://classroom.google.com/c/MjU0NDY2ODM3NTEx
-        matemática https://classroom.google.com/c/MjY3MTU2ODM4NjQ4
-        portugues https://classroom.google.com/c/MjY0MTQzNDY5OTMx
-        inglês https://classroom.google.com/c/MjU0NDI1NTgwODU1
-        filosofia https://classroom.google.com/c/MjYzNTIwODg1NzQx
-        biologia https://classroom.google.com/c/MjYzMTEzMTE3ODMw
-        educação fisica https://classroom.google.com/c/MjU0MzQwMjUxNjE3
-"""
 if (dia == "seg"): 
     if (hora == 19 and (minuto >=14 and minuto <=50)): #primeira aula
         pyautogui.write('https://classroom.google.com/c/MjY1MDk5MzIyMzA3') #FUND E SUPOR
