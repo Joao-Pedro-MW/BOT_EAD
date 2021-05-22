@@ -1,5 +1,5 @@
 # BOT_EAD
-O algoritmo com base na localização dos ícones do meu desktop, abre o google chrome, faz login, e abre o link da aula (conforme o dia e horário)
+O algoritmo com base na localização dos ícones do desktop, abre o google chrome, faz login, e abre o link da aula (conforme o dia e horário)
 
 !!!!! O algoritmo pode não rodar corretamente em sua máquina pois ele foi feito para o tamanho de tela e localização dos links propria do meu desktop !!!!!
 
