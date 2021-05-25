@@ -22,7 +22,7 @@ time.sleep(2)
 pyautogui.click(320,50)
 
 if (dia == "seg"): 
-    if (hora == 19 and (minuto >=14 and minuto <=50)): #primeira aula
+    if (hora == 19 and (minuto >=0 and minuto <=50)): #primeira aula
         pyautogui.write('https://classroom.google.com/c/MjY1MDk5MzIyMzA3') #FUND E SUPOR
         pyautogui.press('enter')
     if (hora == 19 and minuto >=51): #segunda aula
@@ -38,7 +38,7 @@ if (dia == "seg"):
         pyautogui.write('https://classroom.google.com/c/MjY0MTQzNDY5OTMx') #PORTUGUES
         pyautogui.press('enter')
 elif (dia == "ter"): 
-    if (hora == 19 and (minuto >=14 and minuto <=50)): #primeira aula
+    if (hora == 19 and (minuto >=0 and minuto <=50)): #primeira aula
         pyautogui.write('https://classroom.google.com/c/MjYzMTEzMTE3ODMw') #BIOLOGIA
         pyautogui.press('enter')
     if (hora == 19 and minuto >=51): #segunda aula
@@ -54,7 +54,7 @@ elif (dia == "ter"):
         pyautogui.write('https://classroom.google.com/c/MjY3MTU2ODM4NjQ4') #MATEMATICA
         pyautogui.press('enter')
 elif (dia == "qua"):
-    if (hora == 19 and (minuto >=14 and minuto <=50)): #primeira aula
+    if (hora == 19 and (minuto >=0 and minuto <=50)): #primeira aula
         pyautogui.write('https://classroom.google.com/c/MjY1MDk5MzIyMzA3') #FILOSOFIA
         pyautogui.press('enter')
     if (hora == 19 and minuto >=51): #segunda aula
@@ -70,7 +70,7 @@ elif (dia == "qua"):
         pyautogui.write('https://classroom.google.com/c/MjY1MTE1NTYxODI1') #WEB
         pyautogui.press('enter')
 elif (dia == "qui"): 
-    if (hora == 19 and (minuto >=14 and minuto <=50)): #primeira aula
+    if (hora == 19 and (minuto >=0 and minuto <=50)): #primeira aula
         pyautogui.write('https://classroom.google.com/c/MjY0MTQzNDY5OTMx') #PORTUGUES
         pyautogui.press('enter')
     if (hora == 19 and minuto >=51): 
@@ -86,7 +86,7 @@ elif (dia == "qui"):
         pyautogui.write('https://classroom.google.com/c/MjU0NDI1NTgwODU1') #INGLES
         pyautogui.press('enter')
 elif (dia == "sex"): 
-    if (hora == 19 and (minuto >=14 and minuto <=50)): 
+    if (hora == 19 and (minuto >=0 and minuto <=50)): 
         pyautogui.write('https://classroom.google.com/c/MjU0NDY2ODM3NTEx') #HISTORIA
         pyautogui.press('enter')
     if (hora == 19 and minuto >=51): 
@@ -102,6 +102,6 @@ elif (dia == "sex"):
         pyautogui.write('https://classroom.google.com/c/MjU0NDY3NDU2NzM5') #GEOGRAFIA
         pyautogui.press('enter')
 else:
-    print("ERROR")
+    print("Sem aulas !")
 
 
